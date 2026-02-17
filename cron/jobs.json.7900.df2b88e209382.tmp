@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "23201314-a04b-458f-af9f-31ea3a24a585",
+      "agentId": "main",
+      "name": "Message to Subhan",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1770731575787,
+      "updatedAtMs": 1770890504438,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-02-10T14:00:00.000Z"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Reminder: It’s 7 p.m. — please send the message to Subhan as you planned earlier."
+      },
+      "state": {
+        "nextRunAtMs": 1770732000000,
+        "lastRunAtMs": 1770890504437,
+        "lastStatus": "skipped",
+        "lastDurationMs": 1,
+        "runningAtMs": 1770890504465
+      }
+    },
+    {
+      "id": "922b3b92-0d9e-4901-a849-efffe6481b8a",
+      "agentId": "main",
+      "name": "Hourly Water Reminder",
+      "enabled": true,
+      "createdAtMs": 1770806918490,
+      "updatedAtMs": 1770886335825,
+      "schedule": {
+        "kind": "cron",
+        "expr": "50 * * * *",
+        "tz": "Asia/Karachi"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Reminder: It’s ten minutes before the hour ends—take a sip of water now to stay hydrated."
+      },
+      "state": {
+        "nextRunAtMs": 1770893400000,
+        "lastRunAtMs": 1770886335821,
+        "lastStatus": "skipped",
+        "lastDurationMs": 4,
+        "lastError": "empty-heartbeat-file"
+      }
+    }
+  ]
+}

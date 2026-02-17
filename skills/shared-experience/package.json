@@ -1,0 +1,9 @@
+{
+  "name": "shared-experience",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Shared experience system for multi-agent learning",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}

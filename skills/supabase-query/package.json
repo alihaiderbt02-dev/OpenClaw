@@ -1,0 +1,10 @@
+{ 
+    "name": "supabase-query",
+    "version": "1.0.0", 
+    "type": "module", 
+    "description": "Query Supabase database from OpenClaw", 
+    "dependencies": 
+    { 
+        "@supabase/supabase-js": "^2.39.0" 
+    } 
+}
